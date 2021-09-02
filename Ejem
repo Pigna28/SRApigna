@@ -1,0 +1,13 @@
+import numpy as np  #Importa libreria numerica 
+import sympy as sym #simbolica
+import matplotlib.pyplot as plt #importa matplotlib solo pyplot
+import matplotlib.image as mpimg 
+from sympy.plotting import plot  #para plotear 2 variables
+from sympy.plotting import plot3d  # para 3
+from sympy.plotting import plot3d_parametric_surface
+from IPython.display import Image 
+import ipympl  #Para importar gestor de imagenes 
+sym.init_printing() #activa a jupyter para mostrar simbolicamente el output
+
+%matplotlib widget
+#%matplotlib inline
